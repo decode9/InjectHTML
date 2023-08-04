@@ -37,3 +37,7 @@
 .navItem:hover {
   border-bottom: 1px solid black;
 }
+
+.navItemSelected{
+  border-bottom: 1px solid black;
+}
