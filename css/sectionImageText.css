@@ -1,0 +1,34 @@
+.sectionImageText {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+.sectionImageTextImageContainer {
+  width: 100%;
+  position: relative;
+  min-height: 500px;
+}
+
+.sectionImageTextImageContainer>img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

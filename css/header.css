@@ -1,0 +1,39 @@
+._header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  position: fixed;
+  top: 0px;
+  background: white;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem;
+}
+
+._buttonLogin {
+  background: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.navItem {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.navItem:hover {
+  border-bottom: 1px solid black;
+}
