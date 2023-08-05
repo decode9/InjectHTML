@@ -10,6 +10,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   padding: 2rem 1rem;
+  background: white;
 }
 
 .sectionImageTextImageContainer {
